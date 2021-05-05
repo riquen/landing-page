@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    
+</head>
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1  onclick="getElementById('close-menu').checked = false;"><a href="#home">HOME</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#aircrafts">aircrafts</a></li>
+                    <li><a href="#uan">UAN</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>            
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="section">
+        <figure>
+            <img src="./assets/img/1_KC-390_first flight2.jpg" alt="Um avião modelo KC-390">
+            <img src="./assets/img/AC 195 001247 a.jpg" alt="Um avião modelo E195">
+            <img src="./assets/img/L1000E Still shot In Flight_1.jpg" alt="Um avião modelo L1000E">
+            <img src="./assets/img/Legacy_650E_03.jpg" alt="Um avião modelo Legacy 650E">
+            <img src="./assets/img/Phenom-300E_Exterior-Flight-Sunset.jpg" alt="Um avião modelo Phenom 300E">
+        </figure>
+    </section>
+
+    <section id="intro" class="intro blue-sky-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>what is an aircraft?</h2>
+                <p>An aircraft is a vehicle that is able to fly by gaining support from the air. It counters the force of gravity by using either static lift or by using the dynamic lift of an airfoil, or in a few cases the downward thrust from jet engines.</p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/intro.svg" alt="Uma cidade com Sol no fundo e um marcador de localização posicionado em uma rota que cruza o céu.">
+            </div>
+        </div>
+    </section>
+
+    <section id="aircrafts" class="aircrafts night-sky-bg section">
+        <div class="main-content aircrafts-content">
+            <div class="airplane-content">
+                <h2>airplane</h2>
+                <p>An airplane or aeroplane (informally plane) is a fixed-wing aircraft that is propelled forward by thrust from a jet engine, propeller, or rocket engine. Airplanes come in a variety of sizes, shapes, and wing configurations. The broad spectrum of uses for airplanes includes recreation, transportation of goods and people, military, and research.</p>
+            </div>
+            <div class="helicopter-content">
+                <h2>helicopter</h2>
+                <p>A helicopter is a type of rotorcraft in which lift and thrust are supplied by horizontally-spinning rotors. This allows the helicopter to take off and land vertically, to hover, and to fly forward, backward and laterally. These attributes allow helicopters to be used in congested or isolated areas where fixed-wing aircraft and many forms of VTOL (Vertical TakeOff and Landing) aircraft cannot perform.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="uan" class="uan baby-blue-bg section">
+        <div class="main-content grid-content">
+            <h2 class="grid-heading">uan</h2>
+            <p class="grid-description">Unmanned Aerial Vehicle - commonly known as a drone, is an aircraft without a human pilot on board.</p>
+            <div class="grid">
+                <article>
+                    <h3>Agriculture</h3>
+                    <p>As global demand for food production grows exponentially, resources are depleted, farmland is reduced, and agricultural labor is increasingly in short supply, there is an urgent need for more convenient and smarter agricultural solutions than traditional methods, and the agricultural drone and robotics industry is expected to make progress. Agricultural drones have been used in areas such as Africa to help build sustainable agriculture.</p>
+                </article>
+                <article>
+                    <h3>Animal imitation – ethology</h3>
+                    <p>Flapping-wing ornithopters, imitating birds or insects, are a research field in microUAVs. Their inherent stealth recommends them for spy missions. The Nano Hummingbird is commercially available, while sub-1g microUAVs inspired by flies, albeit using a power tether, can "land" on vertical surfaces. Other projects include uncrewed "beetles" and other insects. Research is exploring miniature optic-flow sensors, called ocellis, mimicking the compound insect eyes formed from multiple facets, which can transmit data to neuromorphic chips able to treat optic flow as well as light intensity discrepancies.</p>
+                </article>
+                <article>
+                    <h3>Applications</h3>
+                    <p>Compared to crewed aircraft, UAVs were originally used for missions too "dull, dirty or dangerous" for humans. While drones originated mostly in military applications, their use is rapidly finding many more applications including aerial photography, product deliveries, agriculture, policing and surveillance, infrastructure inspections, science, smuggling, and drone racing.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery white-bg section">
+        <div class="main-content gallery-content">
+            <h2 class="gallery-heading">gallery</h2>
+            <p class="gallery-description">Here are some aircrafts pics.</p>
+            <div class="gallery-grid">
+                <div class="gallery-img"><img src="./assets/img/a380.jpg" alt="Um avião modelo A380"></div>
+                <div class="gallery-img"><img src="./assets/img/dolphin.jpg" alt="Um helicóptero modelo MH-65"></div>
+                <div class="gallery-img"><img src="./assets/img/drone.jpg" alt="Um drone pulverizador"></div>
+                <div class="gallery-img"><img src="./assets/img/787.jpg" alt="Um avião modelo 787 Dreamliner"></div>
+                <div class="gallery-img"><img src="./assets/img/agusta.jpg" alt="Um helicóptero modelo A109E"></div>
+                <div class="gallery-img"><img src="./assets/img/drone2.jpg" alt="Um drone de entregas"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing white-bg section">
+        <div class="main-content pricing-content">
+            <h2>pricing table</h2>
+            <div class="responsive-table">
+                <table>
+                    <caption>Check the aircraft models and their respective prices</caption>
+                    <thead>
+                        <tr>
+                            <th>Models</th>
+                            <th>Prices*</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>A380</td>
+                            <td>US$432.600.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>787 Dreamliner</td>
+                            <td>US$306.000.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>MH-65</td>
+                            <td>US$9.000.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>A109E</td>
+                            <td>US$6.300.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Spray Drone</td>
+                            <td>U$15.000,00</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Drone</td>
+                            <td>U$6.599,00</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td colspan="3">*Values may be out of date</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact night-sky-bg section">
+        <div class="main-content contact-content">
+            <div class="contact-text-content">
+                <h2>contact us</h2>
+                <p>Thanks for viewing this page! Send me suggestions.</p>
+            </div>
+            <div class="contact-img">
+                <img src="./assets/img/contact.svg" alt="Ícones para contato: localização, e-mail e telefone">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Contact</legend>
+                    <div class="form-group">
+                        <label for="first-name">First name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Your e-mail">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a target="_blank" href="https://github.com/riquen">Henrique Nunes, 2021</a></p>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+</html>
